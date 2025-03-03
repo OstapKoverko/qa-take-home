@@ -1,28 +1,94 @@
-# QA Take Home
+# MAESTO-TEST-ASSESSMENT
 
-- [QA Take Home](#qa-take-home)
-  - [Assignment](#assignment)
-  - [Instructions](#instructions)
-  - [Submission Notes](#submission-notes)
-    - [**To submit your work, please create a fork**](#to-submit-your-work-please-create-a-fork)
+## ⚡ Playwright Installation
 
-## Assignment
+To set up this Playwright project, follow these steps:
 
-At it’s core, Maestro is a project-management web application built using Ruby-on-Rails to support the backend service, and a ReactJS frontend application.
+1. **Clone the repository:**
 
-You are tasked with creating a minimal e2e testing solution for the web application at <https://public.dev-go-maestro.com>.
-The testing solution should attempt to test basic CRUD functionality for Objectives of a Company (`https://public.dev-go-maestro.com/#{company_id}/objectives`) in the UI.
+   ```sh
+   git clone <repo-url>
+   cd EIS-TEST-ASSESSMENT
+   ```
 
-## Instructions
+2. **Install dependencies:**
 
-Your assignment is to:
+   ```sh
+   npm install
+   ```
 
-1. write a test plan for our web application
-2. additionally, write automated e2e tests that execute on the test plan using any tools/frameworks that you prefer.
+3. **Install Playwright and browsers:**
 
-## Submission Notes
+   ```sh
+   npx playwright install
+   ```
 
-We expect this assignment to take between 4 and 6 hours.
-While completeness is always desired, incomplete work produced at a high level may be evaluated more positively than complete work produced at an inadequate level.
+---
 
-### **To submit your work, please create a fork**
+## 🎨 Prettier Setup
+
+The project already includes a **.prettierrc.json** configuration file. To enable Prettier:
+
+1. Install Prettier globally (optional):
+
+   ```sh
+   npm install --global prettier
+   ```
+
+2. Format files according to the configuration:
+
+   ```sh
+   npx prettier --write .
+   ```
+
+3. Add Prettier as a pre-commit hook (optional):
+
+   ```sh
+   npm install --save-dev husky lint-staged
+   npx husky add .husky/pre-commit "npx lint-staged"
+   ```
+
+4. **Formatting in IDE:**
+
+   - Install **Prettier - Code formatter** extension in VS Code.
+   - Enable **Format on Save** in VS Code settings.
+
+---
+
+## 🚀 Running Tests
+
+Run all tests:
+
+```sh
+npx playwright test
+```
+
+Run tests from a specific file:
+
+```sh
+npx playwright test tests/test-1.spec.ts
+```
+
+Run in debug mode:
+
+```sh
+npx playwright test --debug
+```
+
+Run in headed mode (with browser UI):
+
+```sh
+npx playwright test --headed
+```
+
+Generate an HTML report after testing:
+
+```sh
+npx playwright show-report
+```
+
+## 📌 Additional Notes
+
+- Use `npx playwright codegen` to generate test scripts.
+- Add `"test": "npx playwright test"` to `scripts` in `package.json` for convenient test execution with `npm test`.
+- Check `playwright-report/` for viewing test results in the browser.
