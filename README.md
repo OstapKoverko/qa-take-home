@@ -8,7 +8,7 @@ To set up this Playwright project, follow these steps:
 
    ```sh
    git clone <repo-url>
-   cd EIS-TEST-ASSESSMENT
+   cd qa-take-home
    ```
 
 2. **Install dependencies:**
