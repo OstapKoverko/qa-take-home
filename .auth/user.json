@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "_maestro_session",
+      "value": "EdtFucs%2FeYsO7b7wBdmIv2UFHfoaW2O9MJRYZQpq7oJd8f4NEzfwvK8IiMTQ%2FOB2uj2F5i7wJoQDvTBsF%2BNeoq8ra03KIQPX6CsA35XugfQvX6w9J%2BXk9Jbszs%2BjeV5H5o%2BapFdkONRBayPF%2Fb5l%2FApcCyaLk3auQeQG1xoRMsel5%2FLvBGnBVvkerVa%2FaV1Npj%2BxHUrs3yF9%2BL6NG38KVVyot1dohhrSkLrD2%2FBvYS%2FKgpMl8mKDgXzSGZSbaqg%2BPp%2FVzlbXBP1jZrvZ%2BJSoYIxYvKLOfgH0REi8qmD64or9CyuSZcv5iLMOrQd5Y%2Bno9yreoIcLGr9ZQTQ4Y6%2BtpY24J9%2F6pRF%2F1I%2FFf8a5DeMW83XoaWohJJbkUXHsyxpoLwnHGERf5iC0ZmE7TA6eSo%2FqedST10rk0gzMFZVN272lLyavkPpSXJDIHSxIgDfv75uE3R63eQABnnVFk2%2FiiAh0BYgC%2Be3W0sBQIFbH8r4VX6AKa9xJyKj5ox8CdnkVddeKlh2pciCOXGpw1z0ZeolGT6TNccw35f%2BCCvr2ZkCdUSjmC01ZBsj86QtFO1mYNOZieHzhVVpQP%2FjPIgFJTCE6Bd%2FJbpwTmEfplQ%3D%3D--WRF%2FHkG2QT3jDtHq--POiAby6KhEZ9CR0U3o3Rjw%3D%3D",
+      "domain": "public.dev-go-maestro.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://public.dev-go-maestro.com",
+      "localStorage": [
+        {
+          "name": "NRBA_SESSION",
+          "value": "{\"value\":\"58d6bc6e45dd897a\",\"inactiveAt\":1741033690312,\"expiresAt\":1741046290311,\"updatedAt\":1741031891159,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":1,\"traceHarvestStarted\":true,\"loggingMode\":0,\"serverTimeDiff\":-1044,\"custom\":{}}"
+        }
+      ]
+    }
+  ]
+}
